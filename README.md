@@ -1,4 +1,4 @@
-This is a breakout board for the STM32F103 - TQFP48 Package
+This is a Dual Channel Battery Analyzer for HaD 2015 Contest Entry.
 
 Ver 2.1 Rel 0/	Initial PCB release - first layout/non-tested
   Eagle PCB/	Eagle CAd files
