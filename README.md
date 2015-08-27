@@ -13,7 +13,7 @@ This is a Dual Channel Battery Analyzer for HaD 2015 Contest Entry.
 |    Linear Tech Spice Simulation analog file
 |
 + Windows/
-| Pellec C Project file
+| Pelles C Project file
 |
 + Firmware/
   Simplicity Studio files
@@ -30,4 +30,3 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 The software is under Mozilla Public License
 The full detail of this license is available at: 
 https://www.mozilla.org/MPL/
-
