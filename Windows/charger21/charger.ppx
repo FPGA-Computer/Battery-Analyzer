@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="fileop.h" />
+	<category name="fileop.c" />
+	<category name="debug.h" />
+	<category name="debug.c" />
+	<category name="..\..\usb\usb common.h" />
+	<category name="usb host.h" />
+	<category name="usb.h" />
+	<category name="charger.h" />
+	<category name="charger.c" />
+	<category name="usb host.c" />
+	<category name="data.h" />
+	<category name="data.c" />
+	<category name="charger gui.rc" />
+	<category name="Debugger" />
+	<category name="..\..\usb\battery.h" />
+	<category name="Charger gui.c">
+		<category name="Window">
+			<property name="Left" type="integer">-4</property>
+			<property name="Top" type="integer">-23</property>
+			<property name="Right" type="integer">1614</property>
+			<property name="Bottom" type="integer">728</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+	<category name="Battery gui.c" />
+	<category name="gui support.c" />
+	<category name="tabmenu.c" />
+	<category name="Battery gui.h" />
+</settings>
