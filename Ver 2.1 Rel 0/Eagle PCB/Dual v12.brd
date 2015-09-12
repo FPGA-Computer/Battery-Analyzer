@@ -2787,7 +2787,7 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="DK: 497-3755-1-ND" x="25.8572" y="87.5538" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="ipc-7351-capacitor" package="CAP2012X70N" value="1uF/25V" x="26.8224" y="83.0072" rot="R180">
-<attribute name="PARTNO" value="STOCK: 1UF/10V 20% TDK" x="26.8224" y="83.0072" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="DK: 311-1456-1-ND" x="26.8224" y="83.0072" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="ipc-7351-resistor" package="RESC1608X55N" value="39K2" x="33.6804" y="78.0796" rot="R180">
 <attribute name="PARTNO" value="DK: 311-39.2KHRCT-ND" x="33.6804" y="78.0796" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2891,7 +2891,7 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="STOCK: DK 490-1532-1-ND" x="42.7228" y="67.4624" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R11" library="ipc-7351-resistor" package="RESC1608X55N" value="100R" x="11.4808" y="95.0722">
-<attribute name="PARTNO" value="STOCK: 10R" x="11.4808" y="95.0722" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="STOCK" x="11.4808" y="95.0722" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U6" library="Misc Power" package="SOIC8" value="TC4426ACOA" x="44.069" y="48.387" rot="R270">
 <attribute name="PARTNO" value="DK: TC4426ACOA-ND" x="44.069" y="48.387" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2930,15 +2930,22 @@ design rules under a new name.</description>
 </element>
 <element name="TP1" library="testpad" package="TP08R" value="TPSQTP08R" x="20.828" y="74.4728">
 <attribute name="TP_SIGNAL_NAME" value="" x="20.828" y="74.4728" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="*" x="20.828" y="74.4728" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP2" library="testpad" package="TP14SQ" value="TPSQTP14SQ" x="41.148" y="98.679">
 <attribute name="TP_SIGNAL_NAME" value="" x="41.148" y="98.679" size="0.8128" layer="27" display="off"/>
+<attribute name="PARTNO" value="*" x="41.148" y="98.679" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP3" library="testpad" package="TP14SQ" value="TPSQTP14SQ" x="41.148" y="96.139">
 <attribute name="TP_SIGNAL_NAME" value="" x="41.148" y="96.139" size="0.8128" layer="27" display="off"/>
+<attribute name="PARTNO" value="*" x="41.148" y="96.139" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$2" library="Misc logo" package="CC-NONE" value="CCNONE" x="-1.27" y="-4.318"/>
-<element name="U$3" library="Misc logo" package="POLARITY" value="POLARITY" x="4.826" y="58.674"/>
+<element name="U$2" library="Misc logo" package="CC-NONE" value="CCNONE" x="-1.27" y="-4.318">
+<attribute name="PARTNO" value="*" x="-1.27" y="-4.318" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$3" library="Misc logo" package="POLARITY" value="POLARITY" x="4.826" y="58.674">
+<attribute name="PARTNO" value="*" x="4.826" y="58.674" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

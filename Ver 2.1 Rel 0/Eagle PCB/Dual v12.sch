@@ -10524,7 +10524,7 @@ Attribution-NonCommercial 4.0 International License.</text>
 <attribute name="PARTNO" value="DK: 497-3755-1-ND"/>
 </part>
 <part name="C14" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0805N" value="1uF/25V">
-<attribute name="PARTNO" value="STOCK: 1UF/10V 20% TDK"/>
+<attribute name="PARTNO" value="DK: 311-1456-1-ND"/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="R12" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="39K2">
@@ -10638,7 +10638,7 @@ Attribution-NonCommercial 4.0 International License.</text>
 <attribute name="PARTNO" value="STOCK: DK 490-1532-1-ND"/>
 </part>
 <part name="R11" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="100R">
-<attribute name="PARTNO" value="STOCK: 10R"/>
+<attribute name="PARTNO" value="STOCK"/>
 </part>
 <part name="SUPPLY66" library="Misc Voltages" deviceset="+3.3V" device=""/>
 <part name="SUPPLY72" library="supply2" deviceset="GND" device=""/>
@@ -10677,12 +10677,22 @@ Attribution-NonCommercial 4.0 International License.</text>
 <part name="U$1" library="Misc logo" deviceset="CC" device="100%" value="CC100%">
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="TP1" library="testpad" deviceset="TPSQ" device="TP08R" value="TPSQTP08R"/>
-<part name="TP2" library="testpad" deviceset="TPSQ" device="TP14SQ" value="TPSQTP14SQ"/>
-<part name="TP3" library="testpad" deviceset="TPSQ" device="TP14SQ" value="TPSQTP14SQ"/>
+<part name="TP1" library="testpad" deviceset="TPSQ" device="TP08R" value="TPSQTP08R">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="TP2" library="testpad" deviceset="TPSQ" device="TP14SQ" value="TPSQTP14SQ">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="TP3" library="testpad" deviceset="TPSQ" device="TP14SQ" value="TPSQTP14SQ">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="SUPPLY99" library="supply2" deviceset="GND" device=""/>
-<part name="U$2" library="Misc logo" deviceset="CC" device="NONE" value="CCNONE"/>
-<part name="U$3" library="Misc logo" deviceset="POLARITY" device=""/>
+<part name="U$2" library="Misc logo" deviceset="CC" device="NONE" value="CCNONE">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="U$3" library="Misc logo" deviceset="POLARITY" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11066,11 +11076,19 @@ Copyright (c) 2015 by  K. C. Lee</text>
 <instance part="U$1" gate="G$1" x="281.94" y="2.54">
 <attribute name="PARTNO" x="281.94" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="149.86" y="175.26" rot="R90"/>
-<instance part="TP2" gate="G$1" x="101.6" y="63.5" rot="R180"/>
-<instance part="TP3" gate="G$1" x="99.06" y="76.2" rot="R90"/>
+<instance part="TP1" gate="G$1" x="149.86" y="175.26" rot="R90">
+<attribute name="PARTNO" x="149.86" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP2" gate="G$1" x="101.6" y="63.5" rot="R180">
+<attribute name="PARTNO" x="101.6" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP3" gate="G$1" x="99.06" y="76.2" rot="R90">
+<attribute name="PARTNO" x="99.06" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY99" gate="GND" x="93.98" y="71.12"/>
-<instance part="U$3" gate="G$1" x="40.64" y="243.84"/>
+<instance part="U$3" gate="G$1" x="40.64" y="243.84">
+<attribute name="PARTNO" x="40.64" y="243.84" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12367,7 +12385,9 @@ Copyright (c) 2015 by  K. C. Lee</text>
 </instance>
 <instance part="U6" gate="B" x="160.02" y="203.2"/>
 <instance part="U6" gate="P" x="167.64" y="175.26"/>
-<instance part="U$2" gate="G$1" x="281.94" y="2.54"/>
+<instance part="U$2" gate="G$1" x="281.94" y="2.54">
+<attribute name="PARTNO" x="281.94" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
