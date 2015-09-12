@@ -1,0 +1,3 @@
+- Fixed connections with VBUS detection
+- 0402 parts switched to 0603 and cap array.
+- todo need new lcd footprint
